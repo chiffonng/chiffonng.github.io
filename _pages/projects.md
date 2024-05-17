@@ -5,14 +5,15 @@ permalink: /projects/
 description: Personal projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [school, personal]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
+
+<!-- Display categorized projects -->
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
@@ -22,7 +23,7 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
@@ -39,7 +40,7 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
+  <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
@@ -48,7 +49,7 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}

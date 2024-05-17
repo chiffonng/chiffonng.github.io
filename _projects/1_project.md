@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Can Small Language Models Speak Coherent Vietnamese?
+description: My ongoing independent research project on the capabilities of small language models (<100M) in generating coherent Vietnamese text.
 importance: 1
-category: work
-related_publications: true
+category: school
+github: https://github.com/chiffonng/capstone
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

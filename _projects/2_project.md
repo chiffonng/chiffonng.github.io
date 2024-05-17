@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Minllama (CMU Advanced NLP)
+description: Repository for CMU Advanced NLP Minllama Assignment
 importance: 2
-category: work
-giscus_comments: true
+category: personal
+redirect: https://github.com/chiffonng/cmu-advanced-nlp-minllama-assignment/tree/master
 ---
 
 Every project has a beautiful feature showcase page.
