@@ -2,15 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: My Nguyen # the website title (if blank, full name will be used instead)
-first_name: Tra My (Chiffon)
+title: My (Chiffon) Nguyen # the website title (if blank, full name will be used instead)
+first_name: Tra My
 middle_name:
 last_name: Nguyen
 email: chiffonng136@gmail.com
 description: # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: web/favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -106,7 +105,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  I'm best reached via email.
+  Feel free to email me if you have any questions or would like to collaborate on a project at [first]ng136@gmail.com.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
