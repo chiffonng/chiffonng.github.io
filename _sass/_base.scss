@@ -297,7 +297,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 
     a {
       i::before {
@@ -365,13 +365,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Social (bottom)
+// Social (near picture)
 
 .social {
   text-align: left;
 
   .contact-icons {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
     a {
       i::before {
@@ -786,9 +786,6 @@ footer.sticky-bottom {
       .hidden.open {
         max-height: 100em;
         transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
 
